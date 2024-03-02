@@ -1,10 +1,10 @@
 ---
 name: Bug Report
 about: Report a bug
-title: ''
-labels: ''
-assignees: ''
-
+title: ""
+labels: ""
+assignees: ""
+projects: "Wirlessly-Powered-RC-Car"
 ---
 
 ## Bug Description
