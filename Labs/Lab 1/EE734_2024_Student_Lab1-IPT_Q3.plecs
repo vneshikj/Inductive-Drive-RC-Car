@@ -53,9 +53,9 @@ Plecs {
   ScriptsDialogGeometry ""
   ScriptsDialogSplitterPos "0"
   Schematic {
-    Location      [0, 23; 1536, 777]
-    ZoomFactor    1.14437
-    SliderPosition [94, 0]
+    Location      [1, 30; 767, 776]
+    ZoomFactor    0.763607
+    SliderPosition [61, 0]
     ShowBrowser   off
     BrowserWidth  100
     Component {
@@ -106,7 +106,7 @@ Plecs {
       LabelPosition east
       Parameter {
         Variable      "R"
-        Value         "2"
+        Value         "16"
         Show          on
       }
     }
@@ -241,7 +241,7 @@ Plecs {
       Probe {
         Component     "FETD"
         Path          ""
-        Signals       {"Device voltage", "Device current"}
+        Signals       {"Device current", "Device voltage"}
       }
       Probe {
         Component     "FETD"

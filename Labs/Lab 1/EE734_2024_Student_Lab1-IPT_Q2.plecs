@@ -53,7 +53,7 @@ Plecs {
   ScriptsDialogGeometry ""
   ScriptsDialogSplitterPos "0"
   Schematic {
-    Location      [1144, 458; 1544, 670]
+    Location      [1, 30; 767, 776]
     ZoomFactor    1
     SliderPosition [0, 0]
     ShowBrowser   off
@@ -73,7 +73,7 @@ Plecs {
       }
       Parameter {
         Variable      "L"
-        Value         "[L1 M; M L2]*1e-6\n"
+        Value         "[10, 1; 1, 40]*1e-6\n"
         Show          on
       }
       Parameter {
@@ -106,7 +106,7 @@ Plecs {
       LabelPosition east
       Parameter {
         Variable      "R"
-        Value         "Rl"
+        Value         "16"
         Show          on
       }
     }
@@ -127,19 +127,19 @@ Plecs {
       Direction     up
       Flipped       off
       LabelPosition south
-      Location      [506, 93; 1450, 915]
+      Location      [769, 30; 1535, 795]
       State         "AAAA/wAAAAD9AAAAAgAAAAEAAAAAAAAAAPwCAAAAA/sAAAAQAFoAbwBvA"
-"G0AQQByAGUAYQAAAAAA/////wAAAIQA////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
-"///wAAAGYA////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAABmAP///wAAAAMAAAOwAAAAwPw"
-"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAA7AAAABQAP///wAAA7AAAAJXAAAA"
+"G0AQQByAGUAYQAAAAAA/////wAAAJ0A////+wAAABQAUwBhAHYAZQBkAFYAaQBlAHcAcwAAAAAA//"
+"///wAAAH4A////+wAAAAwAVAByAGEAYwBlAHMAAAAAAP////8AAAB+AP///wAAAAMAAAO+AAAAwPw"
+"BAAAAAfsAAAAUAEQAYQB0AGEAVwBpAGQAZwBlAHQBAAAAAAAAA74AAABfAP///wAAA74AAALYAAAA"
 "BAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAOAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAA"
 "AAAAA=="
       SavedViews    "AAAAAgAAAAA="
-      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAALeAIAAAAFAAAAC"
-"QAAAGQAAAAGAAAAZAAAAAUAAABkAAAABAAAAGQAAAADAAAAZAAAA7AAAAALAQAAAQAAAAAAAAAAAA"
-"AAAGT/////AAAAgQAAAAAAAAALAAAAngAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAA"
+      HeaderState   "AAAA/wAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAALeAIAAAAFAAAAB"
+"AAAAGQAAAAFAAAAZAAAAAMAAABkAAAACQAAAGQAAAAGAAAAZAAAA6kAAAALAQAAAQAAAAAAAAAAAA"
+"AAAH3/////AAAAgQAAAAAAAAALAAAA8gAAAAEAAAAAAAAAZAAAAAEAAAAAAAAAZAAAAAEAAAAAAAA"
 "AAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAZAAAAAEAAAAA"
-"AAAAZAAAAAEAAAAAAAAAAAAAAAEAAAAAAAABggAAAAEAAAAAAAAD6AAAAAAn"
+"AAAAZAAAAAEAAAAAAAAAAAAAAAEAAAAAAAABJwAAAAEAAAAAAAAD6AAAAAAr"
       PlotPalettes  "AAAAAQAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA"
 "AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 "=="
@@ -147,7 +147,7 @@ Plecs {
       TimeRange     "0.0"
       ScrollingMode "1"
       SingleTimeAxis "1"
-      Open          "0"
+      Open          "1"
       Ts            "-1"
       SampleLimit   "0"
       XAxisLabel    ""
@@ -253,7 +253,7 @@ Plecs {
       Probe {
         Component     "R2"
         Path          ""
-        Signals       {"Resistor voltage", "Resistor current"}
+        Signals       {"Resistor voltage", "Resistor current", "Resistor power"}
       }
     }
     Component {
@@ -280,7 +280,7 @@ Plecs {
       LabelPosition west
       Parameter {
         Variable      "C"
-        Value         "C2"
+        Value         "429.5 * 1e-9"
         Show          on
       }
       Parameter {
