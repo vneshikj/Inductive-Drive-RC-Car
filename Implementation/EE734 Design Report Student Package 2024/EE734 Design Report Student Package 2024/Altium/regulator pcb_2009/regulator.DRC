@@ -1,0 +1,23 @@
+Protel Design System Design Rule Check
+PCB File : regulator.PCB
+Date     : 20-Jan-2007
+Time     : 22:28:33
+
+Processing Rule : Hole Size Constraint (Min=0.0254mm) (Max=2.54mm) (On the board )
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.25mm) (Max=1.5mm) (Prefered=0.7mm) (On the board )
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.35mm) (On the board ),(On the board )
+Rule Violations :0
+
+Processing Rule : Broken-Net Constraint ( (On the board ) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Not Allowed) (On the board ),(On the board )
+Rule Violations :0
+
+
+Violations Detected : 0
+Time Elapsed        : 00:00:01

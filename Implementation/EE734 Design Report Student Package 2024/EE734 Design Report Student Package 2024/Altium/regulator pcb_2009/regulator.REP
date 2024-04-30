@@ -1,0 +1,18 @@
+Specifications For regulator.PCB
+On 22-Jan-2007 at 14:15:52
+
+Size Of board                   0.04412 x 0.06182 sq m
+Equivalent 14 pin components    626016896.00 sq mm/14 pin component
+Components on board             25
+
+
+
+ Plated Hole Size          Pads    Vias
+----------------------------------------
+ 0.8mm (31.496mil)           36       0
+ 1.1mm (43.307mil)            8       0
+ 1.5mm (59.055mil)            5       0
+ 1.8mm (70.866mil)           10       0
+ 2mm (78.74mil)               2       0
+----------------------------------------
+ Total                       61       0
