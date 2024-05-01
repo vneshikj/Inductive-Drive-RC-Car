@@ -1,0 +1,18 @@
+PACKAGE plecscombo plexim COMPONENTS="plecsedit plecssolve" \
+	OPTIONS=SUITE SIGN="00C8 7A1F E1F6 4100 40EE AE92 29AC 6600 \
+	A0C8 8CA5 004D 8460 4438 F2F1 EB8E"
+PACKAGE plecscombocoder plexim COMPONENTS="plecsrtw plecscoder" \
+	OPTIONS=SUITE SIGN="00D7 CF6A 758D 517E D8D6 8750 0D4C 7200 \
+	5F17 C41C B911 CDC2 27B7 9F12 13CF"
+FEATURE plecscombo plexim 4.8 05-mar-2025 uncounted \
+	HOSTID=USERHOST=vnesh+b07d64721596 ISSUED=05-mar-2024 \
+	NOTICE="{`name` : `Viktor Neshikj` , `organization` : `The \
+	University of Auckland` , `country` : `NZ`}" SN=STUDENT \
+	SIGN="0015 4318 1583 CD4D 3E9F 8100 C9EC F500 3348 1BAA 806C \
+	59D5 BFED 327D 29D2"
+FEATURE plecscombocoder plexim 4.8 05-mar-2025 uncounted \
+	HOSTID=USERHOST=vnesh+b07d64721596 ISSUED=05-mar-2024 \
+	NOTICE="{`name` : `Viktor Neshikj` , `organization` : `The \
+	University of Auckland` , `country` : `NZ`}" SN=STUDENT \
+	SIGN="00AE 4054 4570 7DCB 23D8 37FE 04B0 3900 5A72 5364 AFB0 \
+	490C CD88 C4CA 39A7"
