@@ -2,3 +2,5 @@
 Version=1.0
 [Project1]
 ProjectPath=regulator.PrjPcb
+[Project2]
+ProjectPath=..\Buck_2009\currentmode_buck.PrjPcb
